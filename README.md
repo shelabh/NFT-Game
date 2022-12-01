@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# NFT-Game
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+A game where you can mint nfts which have attributes attached to them like Hp and Attack Damage. You can use these nfts to play against the Demon King and try to take him down, solo or with other players.
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
