@@ -6,7 +6,7 @@ const Navbar = () => {
 		<nav className="container">
 			<div className="main">
 				<div className="head">
-					CRYPTO CLASH
+					Forefront
 				</div>
 				<div className="links">
 					<div>
