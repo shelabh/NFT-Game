@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
 
 
 body {
@@ -7,7 +10,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+
+  background: url("background.mp4") rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  background-size: 150px 150px ;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
 }
 
 code {
