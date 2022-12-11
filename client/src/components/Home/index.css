@@ -15,6 +15,7 @@
 	display: flex;
 	justify-content: center;
 	padding-top: 5vh;
+	
 }
 
 iframe {
@@ -31,6 +32,7 @@ iframe {
 	bottom: 0;
 	display: flex;
 	justify-content: space-between;
+	position: absolute;
 	
 }
 
@@ -51,4 +53,34 @@ button {
 button:hover {
 	background-color: white;
 	color: black;
+}
+
+.banner {
+	background-color: black;
+	color: white;
+	height: fit-content;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.animate{
+	display: flex;
+	animation: scroll 5s  infinite;
+}
+
+@keyframes scroll {
+        0%{
+    
+          transform: translateX(0%);
+        }
+        100%{
+          transform: translateX(-50%);
+        }
+}
+
+.text {
+	display: inline-flex;
+	white-space: nowrap;
+	align-items: center;
+	justify-content: center;
 }
