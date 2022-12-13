@@ -3,11 +3,18 @@ import { Link } from 'react-router-dom'
 import './index.css'
 
 const Home = () => {
+
+	
 	return (
 		<div className="view">
 			{/* <Navbar /> */}
 			
 			{/* <iframe title="aniamtion" src='https://my.spline.design/untitled-b50b7a3e9557621da407363141311eed/' frameborder='0' width='100%' height='100%'></iframe> */}
+			<div className="connect">
+				<button className="btn-connect">
+					Connect Wallet
+				</button>
+			</div>
 			<div className='heading'>
 				Forefront
 			</div>
@@ -25,7 +32,7 @@ const Home = () => {
 					</button>
 				</Link>
 			</div>
-			<div className='banner'>
+			{/* <div className='banner'>
 			<div className="animate">
 						{
 							[0,1,2,3,4,5,6,7,8,9,10,11].map((_i) => (
@@ -35,7 +42,7 @@ const Home = () => {
 							))
 						}
 					</div>
-			</div>
+			</div> */}
 			
 		</div>
 	)
