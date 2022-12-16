@@ -11,7 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: url("background.mp4") rgba(0, 0, 0, 0.6);
+  background: url("background.mp4") rgba(0, 0, 0, 0.7);
   background-blend-mode: multiply;
   background-size: 150px 150px ;
   font-family: 'Press Start 2P', cursive;

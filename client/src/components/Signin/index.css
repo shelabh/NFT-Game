@@ -1,0 +1,71 @@
+
+
+
+.page2 {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+}
+.left {
+	display: flex;
+	flex-direction: column;
+	gap: 5vh;
+	align-items: center;
+}
+
+.heading2 {
+	font-size: 45px;
+
+}
+
+
+.inputs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3vh;
+	width: 100%;
+}
+
+input {
+	border: 1px solid #C4C4C4;
+	border-radius: 5px;
+	background: rgba(214, 214, 214, 0.23);
+	padding: 0 0 0.5vh 0.5vh;
+	width: 60%;
+	height: 4vh;
+	color: white;
+	font-size: 18px;
+}
+
+input:focus {
+	outline: none;
+}
+
+
+.btns {
+	display: flex;
+	align-items: center;
+}
+
+.btn-signin {
+	font-size: 16px;
+	border-radius: 15px;
+	padding: 2vh;
+	background: white;
+	color: black;
+}
+
+.btn-signup {
+	font-size: 16px;
+	border-radius: 15px;
+	padding: 2vh;
+}
+
+.btn-signup:hover {
+	background: transparent;
+	color: inherit;
+}

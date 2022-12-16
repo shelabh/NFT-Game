@@ -1,12 +1,10 @@
 
 
-.view {
+.page1 {
 	display: flex;
 	justify-content: start;
 	flex-direction: column;
 	height: 100vh;
-	
-
 }
 
 .connect {
@@ -35,7 +33,6 @@
 	display: flex;
 	justify-content: center;
 	padding-top: 0vh;
-	
 }
 
 iframe {
